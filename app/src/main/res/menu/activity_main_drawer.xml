@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_report"
+            android:title="@string/menu_report" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_qltb"
+            android:title="Thiết bị cần kiểm tra" />
+
+        <item
+            android:id="@+id/nav_dk_bay"
+            android:icon="@drawable/ic_bay"
+            android:title="Điều khiển thiết bị bay" />
+
+        <item
+            android:id="@+id/nav_dot_kt"
+            android:icon="@drawable/ic_dot_kt"
+            android:title="Trạm điện và đợt kiểm tra" />
+
+        <item
+            android:id="@+id/nav_quan_tri"
+            android:icon="@drawable/ic_quan_tri"
+            android:title="Quản trị" />
+
+        <item
+            android:id="@+id/nav_phat_hien"
+            android:icon="@drawable/ic_phat_hien"
+            android:title="Phát hiện sự cố và thành phần" />
+
+        <item
+            android:id="@+id/nav_ql_sư_co"
+            android:icon="@drawable/ic_bug"
+            android:title="Quản lý sự cố" />
+
+
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_acc"
+            android:title="Tài khoản" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Đăng xuất" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_info"
+            android:title="Thông tin ứng dụng" />
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>-->
+
+</menu>
